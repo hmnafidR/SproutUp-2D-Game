@@ -4,7 +4,7 @@
 Fly through the forest, collect everyday healthy habits, and watch Sprout grow from a tiny
 seedling into a blooming tree, while the game gets faster and trickier.
 
-### ▶️ [Play it now](https://hmnafidr.github.io/sproutup/)
+### ▶️ [Play it now](https://hmnafidr.github.io/SproutUp-2D-Game/)
 Works in Chrome, Safari, Firefox and Edge on phone, tablet and desktop. It can be installed to the
 Home Screen and plays offline.
 
