@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <title>Sprout Up! · a Sproutine game</title>
+  <meta name="description" content="Help Sprout fly through the forest, collect healthy habits and grow! A cozy game from the Sproutine habit app.">
+  <meta name="theme-color" content="#2f4b3a">
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Sprout Up!">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <meta property="og:title" content="Sprout Up! 🌱 a Sproutine game">
+  <meta property="og:description" content="Help Sprout fly, collect healthy habits and grow. Can you beat my score?">
+  <meta property="og:image" content="icons/icon-512.png">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.3074da67.css">
+</head>
+<body>
+  <div id="wrap"><canvas id="game" aria-label="Sprout Up! game"></canvas></div>
+    <script src="game.22e0d700.min.js"></script>
+  <script>
+    // Offline support + installability (only works over http(s), not when opening the file directly)
+    if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+      addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+    }
+  </script>
+</body>
+</html>
